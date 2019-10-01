@@ -1,9 +1,8 @@
 body
 {
-	border: 1px solid red;
 	margin: 0px auto;
 	max-width: 1024px;
-
+	font-size: 16px;
 }
 header
 {
@@ -45,4 +44,44 @@ header nav ul li
 #logo
 {
 	margin-top: -150px;
+}
+#seccion01
+{
+	margin-top: 15px;
+
+}
+#seccion01 article
+{
+	text-align: center;
+}
+#seccion01 article img
+{
+	width: 98%;
+	border: 5px solid rgba(150,150,150,0.5)
+}
+#seccion02 article
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 32.8%;
+}
+#seccion02 article input[type="submit"]
+{
+	background: white;
+	border-radius: 5px;
+	color: blue;
+	margin-left: 130px;
+	padding: 6px;
+}
+.otraSeccion
+{
+	font-size: 2.5em;
+}
+.unaSeccion
+{
+	font-size: 4.5em;
+}
+.nito
+{
+	font-weight: bold;
 }
