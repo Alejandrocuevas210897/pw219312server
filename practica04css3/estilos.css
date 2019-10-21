@@ -1,0 +1,113 @@
+body{
+    font-size: 16px; /*1em*/
+	margin: 0px auto;
+	min-width: 1280px;
+    max-width: 1280px;
+}
+header{
+    margin-top: 25px;
+    border-bottom: 1px dashed black;
+    height: 200px;
+    padding-left: 20px;
+}
+header nav ul{
+    margin-top: 60px;
+    padding-left: 0px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+
+}
+footer{
+    margin-bottom: 30px;
+}
+footer section article{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 58px;
+    padding-right: 20px;
+    margin-left: 10px;
+
+}
+footer section article hr{
+    height: 1px;
+    background-color: gray;
+
+}
+
+#buy{
+    position: relative;
+    left: 815px;
+    top: -80px;
+}
+
+#goToShop{
+    position: relative;
+    left: 800px;
+    top: -150px;
+}
+
+#secc01art01{
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+}
+#secc01art01art01{
+    border-bottom: 1px dashed gray;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    font-family: monospace;
+    padding-left: 20px;
+}
+#secc01art01art02{
+    padding-left: 20px;
+}
+#secc01art01art02 img{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#secc01art02{
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#segundaSeccion{
+    margin-top: -70px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+#fvyears{
+    position: relative;
+    top: -90px;
+}
+
+.derecha{
+    position: relative;
+    left: 800px;
+    top: -220px;
+}
+
+.grande{
+    font-size: 4.5em;
+}
+
+.gris{
+    color: darkgray;
+}
+
+.mediana{
+    font-size: 1.4em;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.verde{
+    color: chartreuse;
+}
