@@ -1,0 +1,141 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	min-width: 1780px;
+	max-width: 1780px;
+}
+header{
+	background-color:#F0F0F0;
+	position: relative;
+}
+header nav{
+	margin-left: 0px;
+	display: inline-block;
+	margin-bottom:40px;
+	position: relative;
+}
+header nav img{
+	position: absolute;
+	margin-top: 10px;
+	width: 1380px;
+}
+header nav input{
+	float: left;
+	font-size: 1.4em;
+	background-color: rgba(0,0,0,0.01);
+	position: relative;
+  margin-top: 30px;
+  margin-left: 75px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+footer section{
+	background-color: #2B2B2B;
+}
+footer section article{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 90px;
+	padding-right: -120px;
+}
+#section01{
+	background-color: #2B2B2B;
+	border-bottom: 0.5px solid rgba(255,255,255,0.7);
+	padding-bottom: 20px;
+}
+#section01 article{
+	text-align: center;
+	margin-right: -5px;
+	position: relative;
+	width: 17%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+#s01art01{
+	background-color: #2B2B2B;
+	margin-bottom: 90px;
+	padding-right: 90px;
+}
+#s01art01 ul{
+	list-style: none;
+	margin-left: 50px;
+	line-height: 50px;
+}
+#s01art02{
+	background-color: #B5CF51;
+	padding: 50px 20px 216px 20px;
+}
+#s01art03{
+	background-color: #545454;
+	padding: 50px 20px 150px 20px;
+}
+#s01art04{
+	background-color: 	#D42D3F;
+	padding: 50px 20px 187px 20px;
+}
+#s01art05{
+	background-color: 	#E4E4E4;
+	padding: 50px 20px 150px 20px;
+}
+#section02{
+	background-color: #2B2B2B;
+	padding-top:20px;
+
+}
+#section02 article{
+	display: inline-block;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	margin-left: 23px;
+	margin-right: 23px;
+	margin-bottom: 20px;
+	border-bottom: 2px dashed gray;
+}
+
+.white{
+	color: white;
+}
+.lightgray{
+   color:#878787;
+}
+.gray{
+	color: #747474;
+}
+.blue{
+	color: #1aa3ff;
+}
+.xl{
+	font-size: 2em;
+}
+.big{
+	font-size: 1.6em;
+}
+.medium{
+	font-size: 1.5em;
+}
+.nito{
+	font-weight: bold;
+}
+.corner{
+	background-color: rgba(0,0,0,0.3);
+	position:absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 0px 15px 0px 15px;
+
+}
+.right{
+	padding-left: 310px;
+}
