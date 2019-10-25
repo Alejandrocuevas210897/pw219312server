@@ -1,0 +1,73 @@
+img[alt]{
+	border:5px solid blue; 
+}/*tiene que se la ruta completa */
+img[src="img/logo.png"]{
+	width: 400px;
+}/*busca al inico de la cadena*/
+img[src^="img/"]{
+width: 150px;
+}
+/*busca al final de la cadena*/
+img[src$="png"]{
+width: 250px;
+}
+/*busaca en cualquier parte de la cadena*/
+img[src*="mg/"]{
+	width: 50px;
+}
+/*equivalente a 
+.resaltado
+.ingles
+.archivo*/
+article[class~="resaltado"]{
+	border:1px dashed blue; 
+}
+article[class~="ingles"]{
+	border:1px dashed red; 
+}
+article[class~="archivo"]{
+	border:1px dashed green; 
+}
+article[class|="ingles"]{
+	text-align: center;
+}
+div > p{
+	color: blue;
+}
+div p{
+	color: red;
+}
+/* + es el siguiente elemento despues del de la izquierda*/
+h2 + p{
+	color: gray;
+}
+/* ~ toma todos los elementos que siguen de h2*/
+h2 ~ p{
+	color: green;
+}
+
+#Resumen,#Experimento,#Pruebas,#Resultados,#Conclusiones{
+	color: red;
+}
+section: not(#Referencias){
+	color: blue;
+}
+/*impar th elemento*/
+li:nth-child(odd){
+	color: green;
+}/*pares de una lista*/
+li:nth-child(even){
+	color: blue;
+}
+/*tambien se puede tomar numero de elemento*/
+li:nth-child(5){
+	color: red;
+}
+/*para tomar el ultimo elemento de la lista va contando de abajo para arriba*/
+li:nth-last-child(1){
+	color: purple;
+}
+p:first-line{
+	color: red;
+	font-weight: bold;
+}
