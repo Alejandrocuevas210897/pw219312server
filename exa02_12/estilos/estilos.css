@@ -1,0 +1,60 @@
+body
+{
+	font-size: 16px;/*1em*/
+	margin: 0px auto;/*centrado de pantalla*/
+	max-width: 1078px;/*cliente*/
+	min-width: 1078px;
+}
+body section article button
+{
+    border-radius: 40px;
+    background: #f1efef;
+}
+#perso
+{
+    width: 250px;
+}
+#a1s1
+{
+    width:700px;
+    display: inline-block;
+    background: #f1efef;
+}
+#s1a1
+{
+    position: relative;
+    left: -100px;
+    top: 150px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+
+}
+#s1
+{
+    vertical-align: top;
+}
+
+#a2s1
+{
+   background: gray;
+}
+#s1a2
+{
+     /*color: white;*/
+     position: relative;
+     left: -10px;
+     top: 150px;
+     display: inline-block;
+     float: right;
+     text-align: center;
+
+}
+#btn2
+{
+    background: gray;
+    border-radius: 40px; 
+    width: 150px;
+    height: 45px;
+    border-bottom: 1px solid red;
+}
