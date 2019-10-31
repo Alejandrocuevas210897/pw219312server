@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Notificaciones</title>
+</head>
+<body>
+    <button onClick="enviarnotificaiones();">
+        Notificaciones
+    </button>
+    <script>
+        function enviarnotificaiones()
+        {
+            //comprobar si el navegador soporta notificaciones
+            if(!("Notification") in window)
+            {
+                alert("No soporta notificaciones");
+            }
+            else if(Notification.permission === "granted")
+            {
+                //comprobamos si ya autorizamos 
+                //lanzamos las notificaiones
+                var notificacion=new Notification("Segunda Notificacion");
+            }
+            else if(Notification.permission === "denied" || Notification.permission === "default")
+            {
+                //solicitamos el permiso al usuario para enviar notificaciones
+                Notification.requestPermission(function(permission)
+                {
+                    //si el usuario concede el permiso, lanzamos la notificacion
+                    if(permission === "granted")
+                    {
+                        var notificacion = new Notification("Bienvenido :)");
+                    }
+                });    
+            }
+        }
+    </script>
+</body>
+</html>
